@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4C32862427716C006C610E /* 周興哲-Im Happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB4C32842427716C006C610E /* 周興哲-Im Happy.mp3 */; };
+		DB4C328824277184006C610E /* TANK-你的情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB4C328724277184006C610E /* TANK-你的情歌.mp3 */; };
 		DB50E29E242740CF0087F516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50E29D242740CF0087F516 /* AppDelegate.swift */; };
 		DB50E2A0242740CF0087F516 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50E29F242740CF0087F516 /* SceneDelegate.swift */; };
 		DB50E2A2242740CF0087F516 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50E2A1242740CF0087F516 /* ViewController.swift */; };
 		DB50E2A5242740CF0087F516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB50E2A3242740CF0087F516 /* Main.storyboard */; };
 		DB50E2A7242740D70087F516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB50E2A6242740D70087F516 /* Assets.xcassets */; };
 		DB50E2AA242740D70087F516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB50E2A8242740D70087F516 /* LaunchScreen.storyboard */; };
+		DB67A512242F4F2300B4FEC4 /* album.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB67A511242F4F2300B4FEC4 /* album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB4C32842427716C006C610E /* 周興哲-Im Happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "周興哲-Im Happy.mp3"; sourceTree = "<group>"; };
+		DB4C328724277184006C610E /* TANK-你的情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TANK-你的情歌.mp3"; sourceTree = "<group>"; };
 		DB50E29A242740CF0087F516 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB50E29D242740CF0087F516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB50E29F242740CF0087F516 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		DB50E2A6242740D70087F516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB50E2A9242740D70087F516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB50E2AB242740D70087F516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB67A511242F4F2300B4FEC4 /* album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		DB50E29C242740CF0087F516 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				DB4C32842427716C006C610E /* 周興哲-Im Happy.mp3 */,
+				DB4C328724277184006C610E /* TANK-你的情歌.mp3 */,
 				DB50E29D242740CF0087F516 /* AppDelegate.swift */,
 				DB50E29F242740CF0087F516 /* SceneDelegate.swift */,
 				DB50E2A1242740CF0087F516 /* ViewController.swift */,
+				DB67A511242F4F2300B4FEC4 /* album.swift */,
 				DB50E2A3242740CF0087F516 /* Main.storyboard */,
 				DB50E2A6242740D70087F516 /* Assets.xcassets */,
 				DB50E2A8242740D70087F516 /* LaunchScreen.storyboard */,
@@ -126,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB50E2AA242740D70087F516 /* LaunchScreen.storyboard in Resources */,
+				DB4C32862427716C006C610E /* 周興哲-Im Happy.mp3 in Resources */,
 				DB50E2A7242740D70087F516 /* Assets.xcassets in Resources */,
+				DB4C328824277184006C610E /* TANK-你的情歌.mp3 in Resources */,
 				DB50E2A5242740CF0087F516 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB67A512242F4F2300B4FEC4 /* album.swift in Sources */,
 				DB50E2A2242740CF0087F516 /* ViewController.swift in Sources */,
 				DB50E29E242740CF0087F516 /* AppDelegate.swift in Sources */,
 				DB50E2A0242740CF0087F516 /* SceneDelegate.swift in Sources */,
